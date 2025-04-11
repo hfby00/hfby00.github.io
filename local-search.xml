@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  
+  
+  
+  <entry>
+    <title>Node&amp;Python</title>
+    <link href="/2025/04/09/install-node&amp;python/"/>
+    <url>/2025/04/09/install-node&amp;python/</url>
+    
+    <content type="html"><![CDATA[<p><strong>pip</strong></p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><code class="hljs shell"><span class="hljs-meta prompt_">#</span><span class="language-bash">缓存位置</span><br>pip config set global.cache-dir &quot;路径&quot;<br><span class="hljs-meta prompt_">#</span><span class="language-bash">临时修改</span><br>pip install numpy --target &quot;路径&quot;<br><span class="hljs-meta prompt_">#</span><span class="language-bash">永久修改包路径</span><br>pip config set global.target &quot;路径&quot;<br><span class="hljs-meta prompt_">#</span><span class="language-bash">修改环境变量PYTHONPATH</span><br><span class="hljs-meta prompt_">#</span><span class="language-bash">镜像加速</span><br>pip config set global.index-url &quot;&quot;<br></code></pre></td></tr></table></figure><p><strong>npm</strong></p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><code class="hljs shell"><span class="hljs-meta prompt_"># </span><span class="language-bash">设置全局模块安装目录，添加 NODE_PATH 系统变量：路径/node_modules 添加PATH：路径</span><br>npm config set prefix &quot;路径&quot;<br><span class="hljs-meta prompt_"># </span><span class="language-bash">设置缓存目录</span><br>npm config set cache &quot;路径&quot;<br><span class="hljs-meta prompt_"># </span><span class="language-bash">国内镜像加速</span><br>npm config set registry https://registry.npmmirror.com<br><span class="hljs-meta prompt_"># </span><span class="language-bash">淘宝镜像</span><br>npm install -g cnpm --registry=https://registry.npmmirror.com<br></code></pre></td></tr></table></figure>]]></content>
+    
+    
+    <categories>
+      
+      <category>env</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>开发环境配置</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  
+</search>
